@@ -53,12 +53,14 @@ export default function Education() {
             />
           </div>
           <div>
+          <label htmlFor="start">Joining Date: </label>
             <input
               type="date"
               name="start"
-              placeholder="Course Title"
+              placeholder="Joining date"
               onChange={(e) => handleChange(e, index)}
             />
+            <label htmlFor="end">Ending Date: </label>
             <input
               type="date"
               name="end"
