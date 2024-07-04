@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    display: block;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.container{
+    width: 100%;
+    border: 2px solid black;
+}
+
+.right,
+.left {
+    width: 50%;
+    height: 100%;
+    border: 2px solid black;
+    margin: 1rem;
+
+}
+
+.left-header {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.personal-form{
+    margin: 1rem;
+}
+
+input{
+    width: 15rem;
+    height: 2rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+
+.summary-text textarea{
+    width: 90%;
+    margin-left: 1rem;
+    height: 5rem;
+    display: flex;
+    align-items: flex-start;
+    line-height: 1rem;
+    font-size: 1rem;
+}
+
+button{
+    height: 2rem;
+    margin: 1rem;
+}
+
+
+
+ /* Right Side  */
+
+
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid black; */
+}
+.right-name{
+    font-size: 1.7rem;
+    margin: 0.5rem;
+    font-weight: 700;
+}
+
+.right-contact{
+    margin-right: 5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.right-contact div{
+    font-size: 1rem;
+}
+
+.summary {
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+
+.workEx{
+    margin: 0.5rem;
+}
+
+.workEx div {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.workEx div p{
+    margin-bottom: 0.2rem;
+}
+
+.workEx div span {
+    font-weight: bold;
+}
+
+.skill{
+    margin: 0.5rem;
+}
+
+.skill div{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.skill div span{
+    font-weight: bold;
+}
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-details{
+    margin-right: 0.5rem;
+    border: 1ps solid black;
+}
+
+.skill-title{
+    font-weight: bold;
+}
+
+.skill-description{
+    max-width: 9rem;
+}
+
+.education {
+    margin: 0.5rem;
+}
+
+.education div{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.education div span{
+    font-weight: bold;
+
+}
+@media only screen and (max-width:600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .right,
+    .left {
+       width: 100%;
+       height: 100%;
+       border: 2px solid black;
+       /* margin: 1rem; */  
+
+}
+}
